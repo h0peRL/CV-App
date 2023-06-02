@@ -1,10 +1,125 @@
 body {
-  font-family: "Montserrat", sans-serif;
-  background-color: rgb(55, 53, 64);
-  height: 200rem;
+  background-color: #282c34;
 }
-.main {
-  max-height: fit-content;
+.titleusg {
+  margin-top: 10rem;
+  color: white;
+  text-decoration: underline;
+  font-size: 3rem;
+}
+.USG {
+  left: 20rem;
+  top: 140rem;
+  height: 50rem;
+  width: 50rem;
+}
+#art {
+  width: 20rem;
+  height: 20em;
+  position: absolute;
+  top: 25rem;
+  left: 20rem;
+  z-index: 1;
+}
+.introduction {
+  height: 40em;
+  width: 38rem;
+  position: absolute;
+  top: 20rem;
+  left: 40rem;
+  right: 0;
+  z-index: 1;
+  animation: slide 10s;
+}
+.projects {
+  align-items: center;
+  position: absolute;
+  margin: 0.2rem;
+  width: 78rem;
+  height: 50rem;
+  top: 60rem;
+  left: 14rem;
+}
+.mywork {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  right: 2rem;
+}
+.project1 {
+  margin: 1.68rem;
+  height: 20rem;
+  width: 35rem;
+  cursor: pointer;
+}
+.project-img {
+  opacity: 0.6;
+  height: 20rem;
+  width: 26.7;
+}
+
+.project-title {
+  position: absolute;
+  text-decoration: overline;
+  bottom: 5rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+  opacity: 1;
+  color: #000000;
+  left: 2rem;
+}
+
+.project-desc {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #000000;
+  opacity: 1;
+  left: 2rem;
+}
+.project-text {
+  position: relative;
+  min-height: 10rem;
+  background-color: #ffffff;
+  bottom: 10rem;
+  width: 30rem;
+  opacity: 0.75;
+}
+.title {
+  position: relative;
+  text-align: center;
+  margin-top: 10rem;
+  color: white;
+  text-decoration: underline;
+  font-size: 3rem;
+  right: 5rem;
+}
+.text {
+  position: relative;
+  text-align: center;
+  color: white;
+  opacity: 0;
+  animation: fade 5s forwards;
+  right: 5rem;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slide {
+  33% {
+    transform: translateY(-50px);
+  }
+}
+.avatar {
+  height: 100%;
+  width: 30rem;
 }
 .ul {
   list-style: none;
@@ -31,111 +146,10 @@ body {
   top: 10rem;
   left: 3rem;
 }
-.projects {
-  align-items: center;
-  position: absolute;
-  margin: 5rem;
-  width: 100rem;
-  height: 90rem;
-  top: 70rem;
-  left: 19rem;
-}
-.mywork {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  left: 1.8rem;
-}
-.project1 {
-  margin: 1.68rem;
-  height: 30rem;
-  width: 45rem;
-}
-.project-img {
-  opacity: 0.6;
-  height: 30rem;
-  width: 26.7;
-}
-
-.project-title {
-  position: absolute;
-  text-decoration: overline;
-  bottom: 10rem;
-  font-size: 2rem;
-  margin-top: 1rem;
-  opacity: 1;
-  color: #000000;
-  left: 2rem;
-}
-
-.project-desc {
-  position: absolute;
-  bottom: 9rem;
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
-  color: #000000;
-  opacity: 1;
-  left: 2rem;
-}
-.project-text {
-  position: relative;
-  min-height: 15rem;
-  background-color: #ffffff;
-  bottom: 15rem;
-  opacity: 0.75;
-}
-
 .triangle {
+  width: 60rem;
   position: absolute;
   z-index: -1;
-}
-.introduction {
-  height: 40em;
-  width: 50rem;
-  position: absolute;
-  top: 25rem;
-  left: 50rem;
-  right: 0;
-  z-index: 1;
-  animation: slide 10s;
-}
-.art {
-  width: 20rem;
-  height: 40em;
-  position: absolute;
-  top: 25rem;
-  left: 18rem;
-  z-index: 1;
-}
-.avatar {
-  height: 100%;
-}
-.title {
-  text-align: center;
-  margin-top: 10rem;
-  color: white;
-  text-decoration: underline;
-  font-size: 3rem;
-}
-.text {
-  text-align: center;
-  color: white;
-  opacity: 0;
-  animation: fade 5s forwards;
-}
-@keyframes slide {
-  33% {
-    transform: translateY(-50px);
-  }
-}
-
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 .hvr-grow {
   display: inline-block;
@@ -184,8 +198,32 @@ body {
 .hvr-underline-from-left:active:before {
   right: 0;
 }
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: green;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
