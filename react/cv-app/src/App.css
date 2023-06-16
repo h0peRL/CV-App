@@ -7,10 +7,32 @@ body {
   text-decoration: underline;
   font-size: 3rem;
 }
+.Contact {
+  top: 150rem;
+}
+.contact {
+  left: 30rem;
+}
+.textcontact {
+  text-align: center;
+  left: 20rem;
+}
 .USG {
   left: 20rem;
   top: 140rem;
   height: 50rem;
+  width: 50rem;
+}
+.FCA {
+  left: 20rem;
+  top: 140rem;
+  height: 50rem;
+  width: 50rem;
+}
+.NOSQL {
+  left: 20rem;
+  top: 140rem;
+  height: 38rem;
   width: 50rem;
 }
 #art {

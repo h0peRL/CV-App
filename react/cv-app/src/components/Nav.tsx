@@ -21,7 +21,7 @@ function Nav() {
               </a>
             </li>
             <li>
-              <a href="#contact" className="hvr-underline-from-left">
+              <a href="#contactform" className="hvr-underline-from-left">
                 Contact
               </a>
             </li>
