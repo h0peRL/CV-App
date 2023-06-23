@@ -20,7 +20,7 @@ function Contact() {
             <h1 className="text-2xl">Contact Form</h1>
             <input
               type="text"
-              name="text"
+              name="name"
               className="m-1 rounded h-10 bg-slate-700 text-center border border-black bg-opacity-50"
               required
               placeholder="Name"
