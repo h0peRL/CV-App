@@ -32,13 +32,6 @@ function Contact() {
               required
               placeholder="Email"
             />
-            <input
-              type="text"
-              name="subject"
-              className="m-1 rounded h-10 bg-slate-700 text-center border border-black bg-opacity-50"
-              required
-              placeholder="Subject"
-            />
             <textarea
               name="text"
               required
