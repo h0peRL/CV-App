@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div id="contactform">
+    <div className="Contact" id="contactform">
       <div className="bg-opacity-90 relative Contact h-96 flex text-white bg-blue-500 ">
         <form
           className="flex flex-row "
