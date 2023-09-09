@@ -2,6 +2,8 @@
 
 Dies ist eine Webseite von Nico Delvecchio die als ergänzung zu einem Lebenslauf dient, um interesseierten Personen einen Einblick zu meinen Arbeiten zu gewähren. Die Webseite wurde mit dem Framework React programmiert.
 
+> Warnung! **Wenn man eine Mobileansicht oder Desktop-Monitor-Ansicht verwendet. (Alles ausser einem Laptop)**: Die Webseite ist auf diesen Geräten noch unvollständig! Es wird noch daran gearbeitet.
+
 # Dokumentation
 
 Diese Dokumentation geht nach dem IPERKA prinzip.
